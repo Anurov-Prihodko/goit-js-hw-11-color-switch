@@ -29,7 +29,7 @@ function onChangeColor() {
 
 function getRandomCollor() {
   let num = randomIntegerFromInterval(0, colors.length - 1);
-  console.log(num);
+  // console.log(num);
     refs.colorBody.setAttribute('style', `background-color:${colors[num]}`);
 };
 
