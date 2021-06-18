@@ -8,11 +8,13 @@ const refs = {
 
 refs.start.addEventListener('click', onChangeColor);
 
+const TIME = 1000;
+
 function onChangeColor() {
 
  const intervalID = setInterval(() => {
     getRandomCollor()
- }, 1000);
+ }, TIME);
   
   if (intervalID) {
     refs.start.setAttribute('disabled', true);
@@ -26,7 +28,8 @@ function onChangeColor() {
 };
 
 function getRandomCollor() {
-    let num = randomIntegerFromInterval(0, 5);
+  let num = randomIntegerFromInterval(0, colors.length - 1);
+  console.log(num);
     refs.colorBody.setAttribute('style', `background-color:${colors[num]}`);
 };
 
