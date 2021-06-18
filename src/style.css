@@ -1,0 +1,13 @@
+button {
+  display: inline;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  width: 191.45px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.312;
+  background-color: pink;
+  border-radius: 20px;
+}
