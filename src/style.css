@@ -1,6 +1,5 @@
 button {
   display: inline;
-  padding: 0;
   border: none;
   cursor: pointer;
   width: 191.45px;
@@ -10,4 +9,5 @@ button {
   line-height: 1.312;
   background-color: pink;
   border-radius: 20px;
+  margin: 20px;
 }
